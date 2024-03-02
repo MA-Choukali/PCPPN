@@ -21,7 +21,7 @@ Recommended hardware: Tesla T4 GPU (Google Colaboratory)
 1. Open "./PCPPN/"
 2. In settings.py, provide the appropriate strings for parameters/ directories including:
 num_classes, n_fold, data_path, train_dir, test_dir, train_push_dir:
-  - num_classes is the number of pseudo-classes, 2*K, where K denotes the number of clusters
+.. num_classes is the number of pseudo-classes, 2*K, where K denotes the number of clusters
   - n_fold is the number of data division fold {1, 2, 3, 4, 5} which you choose to use  
   - data_path is where the dataset resides
   - train_dir is the directory containing the augmented training set
