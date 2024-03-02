@@ -1,4 +1,4 @@
-# PCPPN
+
 This code package implements the Pseudo-Class Part Prototype Network (PCPPN) from the paper "Pseudo-Class Part Prototype Networks for Interpretable Breast Cancer Classification"
 (to puplish in Scientific Report Journal 2024), by Mohammad Amin Choukali* (Urmia University), Mehdi Chehel Amirani Urmia University),
 Morteza Valizadeh (Urmia University), Ata Abbasi (Urmia University of medicalsciences), and Majid Komeili (Carleton University)
