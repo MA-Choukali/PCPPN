@@ -30,9 +30,9 @@ num_classes, n_fold, data_path, train_dir, test_dir, train_push_dir:
 3. Run the Jupyter Notebook 'Augment_data_PCPPN.ipynb'
 4. Run the Jupyter Notebook 'main_PCPPN.ipynb'
 
-Instructions for finding the nearest patches to each prototype:
+_Instructions for finding the nearest patches to each prototype_:
 1. Run the Jupyter Notebook 'global_analysis.ipynb' and supply the following arguments:
 - gpuid is the GPU device ID(s) you want to use (optional, default '0')
 - modeldir is the directory containing the model you want to analyze
-%- model is the filename of the saved model you want to analyze
+- model is the filename of the saved model you want to analyze
 
