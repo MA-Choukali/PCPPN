@@ -7,7 +7,7 @@ Morteza Valizadeh (Urmia University), Ata Abbasi (Urmia University of medicalsci
 Recommended hardware: Tesla T4 GPU (Google Colaboratory)
 
 **Instructions for preparing the data:**
-1. Download the BreakHist dataset, BreakHist_v1 from https://www.kaggle.com/datasets/ambarish/breakhis
+1. Download the BreakHist dataset, BreakHist_v1 (https://www.kaggle.com/datasets/ambarish/breakhis)
 2. Open "./Data Revision and Division into 5 folds/"
 3. Put BreakHist_v1 in directory "./Data Revision and Division into 5 folds"
 4. Run 'revised_5folds_40X_generation.py'
