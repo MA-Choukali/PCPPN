@@ -17,7 +17,7 @@ Recommended hardware: Tesla T4 GPU (Google Colaboratory)
 8. Run the Jupyter Notebook 'train_base_model.ipynb'
 9. Run the Jupyter Notebook 'Clustering_stage.ipynb'
 
->> Instructions for training the model:
+> Instructions for training the model:
 1. Open "./PCPPN/"
 2. In settings.py, provide the appropriate strings for parameters/ directories including:
 num_classes, n_fold, data_path, train_dir, test_dir, train_push_dir:
@@ -32,7 +32,7 @@ num_classes, n_fold, data_path, train_dir, test_dir, train_push_dir:
 
 Instructions for finding the nearest patches to each prototype:
 1. Run the Jupyter Notebook 'global_analysis.ipynb' and supply the following arguments:
---gpuid is the GPU device ID(s) you want to use (optional, default '0')
+-/ gpuid is the GPU device ID(s) you want to use (optional, default '0')
   - modeldir is the directory containing the model you want to analyze
   - model is the filename of the saved model you want to analyze
 
