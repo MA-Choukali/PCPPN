@@ -3,10 +3,10 @@ This code package implements the Pseudo-Class Part Prototype Network (PCPPN) fro
 (to puplish in Scientific Report Journal 2024), by Mohammad Amin Choukali* (Urmia University), Mehdi Chehel Amirani Urmia University),
 Morteza Valizadeh (Urmia University), Ata Abbasi (Urmia University of medicalsciences), and Majid Komeili (Carleton University)
 
-Prerequisites: PyTorch, NumPy, cv2, Augmentor (https://github.com/mdbloice/Augmentor)
+**Prerequisites:** PyTorch, NumPy, cv2, Augmentor (https://github.com/mdbloice/Augmentor)
 Recommended hardware: Tesla T4 GPU (Google Colaboratory)
 
-_Instructions for preparing the data_:
+**Instructions for preparing the data:**
 1. Download the BreakHist dataset, BreakHist_v1 from https://www.kaggle.com/datasets/ambarish/breakhis
 2. Open "./Data Revision and Division into 5 folds/"
 3. Put BreakHist_v1 in directory "./Data Revision and Division into 5 folds"
@@ -17,7 +17,7 @@ _Instructions for preparing the data_:
 8. Run the Jupyter Notebook 'train_base_model.ipynb'
 9. Run the Jupyter Notebook 'Clustering_stage.ipynb'
 
-**Instructions for training the model**:
+**Instructions for training the model:**
 1. Open "./PCPPN/"
 2. In settings.py, provide the appropriate strings for parameters/ directories including:
 num_classes, n_fold, data_path, train_dir, test_dir, train_push_dir:
@@ -30,7 +30,7 @@ num_classes, n_fold, data_path, train_dir, test_dir, train_push_dir:
 3. Run the Jupyter Notebook 'Augment_data_PCPPN.ipynb'
 4. Run the Jupyter Notebook 'main_PCPPN.ipynb'
 
-_Instructions for finding the nearest patches to each prototype_:
+**Instructions for finding the nearest patches to each prototype:**
 1. Run the Jupyter Notebook 'global_analysis.ipynb' and supply the following arguments:
 - gpuid is the GPU device ID(s) you want to use (optional, default '0')
 - modeldir is the directory containing the model you want to analyze
