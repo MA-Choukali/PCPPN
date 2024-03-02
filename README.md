@@ -4,7 +4,8 @@ This code package implements the Pseudo-Class Part Prototype Network (PCPPN) fro
 Morteza Valizadeh (Urmia University), Ata Abbasi (Urmia University of medicalsciences), and Majid Komeili (Carleton University)
 
 **Prerequisites:** PyTorch, NumPy, cv2, Augmentor (https://github.com/mdbloice/Augmentor)
-Recommended hardware: Tesla T4 GPU (Google Colaboratory)
+
+*Recommended hardware*: Tesla T4 GPU (Google Colaboratory)
 
 **Instructions for preparing the data:**
 1. Download the BreakHist dataset, BreakHist_v1 (https://www.kaggle.com/datasets/ambarish/breakhis)
